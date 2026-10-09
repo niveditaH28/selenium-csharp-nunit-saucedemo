@@ -3,7 +3,7 @@
 Automated UI tests for https://www.saucedemo.com using the Page Object Model.
 
 ## Tech stack
-C#, .NET 8, Selenium WebDriver 4, NUnit 4
+C#, .NET 10, Selenium WebDriver 4, NUnit 4
 
 ## Modules covered
 Login (valid, invalid, locked-out, logout) | Inventory (sorting) | Cart (add/remove) | Checkout (happy path, validation)
@@ -21,4 +21,4 @@ dotnet restore
 dotnet test
 HEADLESS=true dotnet test      # headless (Windows PowerShell: $env:HEADLESS="true"; dotnet test)
 ```
-Requirements: .NET 8 SDK and Google Chrome.
+Requirements: .NET 10 SDK and Google Chrome.
